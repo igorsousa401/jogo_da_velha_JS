@@ -69,6 +69,18 @@ function squareUpdate() {
     
 }
 
+function restart() {
+
+    let squares = document.querySelectorAll(".square")
+    squares.forEach((square) => {
+            square.innerHTML = ""
+            board = ["", "", "", "", "", "", "", "", ""]
+            playerTime = 0
+            gameOver = false
+    })   
+
+}
+
 let buttonRestart = document.getElementById("restart")
 buttonRestart.addEventListener("click", ()=>{
     restart()

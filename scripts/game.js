@@ -28,11 +28,3 @@ function squareMove(position) {
     return gameOver
 }
 
-function restart() {
-
-    board = ["", "", "", "", "", "", "", "", ""]
-    playerTime = 0
-    gameOver = false
-
-
-}
